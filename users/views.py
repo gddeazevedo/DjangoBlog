@@ -26,6 +26,9 @@ class RegisterView(View):
         return render(request, self.template_name, {'form': form})
 
 
+class ProfileView(View):
+    pass
+
 @login_required
 def profile(request: HttpRequest):
     if request.method == 'POST' and request.user.is_authenticated:
