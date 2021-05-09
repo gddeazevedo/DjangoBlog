@@ -130,3 +130,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'blogs:home' # where to be redirected when login is made
 
 LOGIN_URL = 'users:login' # where to be redirected when accessing private routes
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
